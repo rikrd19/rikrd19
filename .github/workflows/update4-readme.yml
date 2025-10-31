@@ -1,0 +1,18 @@
+name: Update README4
+on:
+  schedule:
+    # Se ejecuta a las 00:00 y 12:00 UTC
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update Profile README
+    steps:
+      # Esta acción clona tu repositorio en el runner
+      - uses: actions/checkout@v4
+
+      # Esta acción genera la actividad reciente
+      - uses: Readme-Workflows/recent-activity@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
