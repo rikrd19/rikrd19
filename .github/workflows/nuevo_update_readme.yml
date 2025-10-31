@@ -1,0 +1,20 @@
+name: Update README
+on:
+  schedule:
+    # Se ejecuta una vez cada 12 horas (a las 00:00 y 12:00 UTC)
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update Profile README
+    steps:
+      # 1. Clona tu repositorio para que la acción pueda editarlo
+      - uses: actions/checkout@v4
+
+      # 2. Genera la actividad reciente
+      # Corregimos la versión volviendo a la v2.4.1, que es la estable
+      - uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
