@@ -1,5 +1,14 @@
-## Hola, soy Ricardo Avila 
+# Hola, soy [tu nombre] 👋
 
-### :zap: Actividad reciente
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:last_update-->
+## Sobre mí
+- 🔭 Actualmente trabajo en ...
+- 🌱 Aprendiendo ...
+- 💬 Pregúntame sobre ...
+- 📫 Cómo contactarme: ...
+- ⚡ Dato curioso: ...
+
+## Tecnologías
+[Aquí puedes listar o poner iconos de tecnologías que uses]
+
+## Estadísticas
+[Opcional: Puedes agregar estadísticas de GitHub usando [este tutorial](https://github.com/anuraghazra/github-readme-stats)]
