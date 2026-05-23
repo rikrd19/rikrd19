@@ -1,4 +1,4 @@
-# Hola, soy [tu nombre] 👋
+# Hola, soy Ricardo Avila Bazalar
 
 ## Sobre mí
 - 🔭 Actualmente trabajo en ...
